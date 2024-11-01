@@ -1,0 +1,24 @@
+/*
+ * Copyright 2011-2013  Andrew Alba  (Alba Web Studio)
+ * The unique combination of images, colors, sizes, typography, 
+ * and positioning ("the design") of this plugin is copyright 
+ * Alba Web Studio (http://albawebstudio.com) and may not be reproduced.
+ */
+ 
+/* FEEL FREE TO EDIT BELOW AT YOUR OWN RISK */
+.plusPoints { 
+	color:#555753;
+	cursor:pointer;
+	cursor:hand;
+}
+.wppp_total { text-align:right; }
+.plusPoints strong, .wppp_total strong { color:#ce5c00; }
+.wppp_total strong.green { color:#73d216; }
+.wppp_total strong.red { color:#cc0000; }
+.wppp_total strong.orange { color:#f57900; }
+.WPPP_credits, .WPPP_credits a {
+	font-size: xx-small;
+	color: #d3d7cf;
+	margin: 6px 0;
+	text-decoration: none;
+}

@@ -1,0 +1,78 @@
+/*
+ * Copyright 2013  Andrew Alba  (Alba Web Studio)
+ * The unique combination of images, colors, sizes, typography,
+ * and positioning ("the design") of this plugin is copyright
+ * Alba Web Studio (http://albawebstudio.com) and may not be reproduced.
+ */
+
+/* FEEL FREE TO EDIT BELOW AT YOUR OWN RISK */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+form#wppp_form {
+	margin:1em 0 2em;
+	padding:2em;
+	background-color:#fff;
+	border: 1px solid #3465a4;
+}
+#wppp_logo {
+	height:48px;
+	margin-top: -24px;
+	padding: 12px;
+	color: #ffffff;
+	width: 300px;
+	float: right;
+	background-color: #21759b;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+	border: 1px solid #3465a4;
+	position: relative;
+}
+#wppp_logo .dashicons-wordpress{
+	width: 52px;
+	height: 52px;
+	font-size: 52px;
+	padding-right: 6px;
+}
+#wppp_logo div {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 32px;
+	text-shadow: 2px 2px 2px #464646;
+	position: absolute;
+	bottom: 28px;
+	margin-left: 60px;
+}
+#wppp_logo span{
+	color:#d54e21;
+	font-family: 'Pacifico', cursive;
+	font-size: 32px;
+	text-shadow: 2px 2px 2px #464646;
+	margin-right: 12px;
+}
+form#wppp_form dl {
+	position:relative;
+	width:auto;
+}
+form#wppp_form dt {
+	clear:both;
+	float:left;
+	width:120px;
+	padding:0 0.5em 0.25em 0;
+	text-align:left;
+}
+form#wppp_form dd {
+	float:left;
+	width:auto;
+	margin:0 0 0.5em 0;
+	padding-left:0.75em;
+}
+form#wppp_form em { color:#f57900; }
